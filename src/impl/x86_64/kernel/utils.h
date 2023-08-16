@@ -1,7 +1,7 @@
 #ifndef KERNEL_UTILS
 #define KERNEL_UTILS
 
-#include <stdint.h>
+#include <libc/stdint.h>
 
 static inline void outportb(uint16_t port, uint8_t data)
 {

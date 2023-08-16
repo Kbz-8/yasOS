@@ -1,7 +1,6 @@
-format ELF
-use32
+format ELF64
 
 section '.text' executable
-	extrn kernel_main
-	call kernel_main
+	extrn __kernel_main
+	call __kernel_main
 	jmp $

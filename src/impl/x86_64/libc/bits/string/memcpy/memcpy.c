@@ -1,4 +1,4 @@
-#include <libc/memcpy.h>
+#include <libc/stdint.h>
 
 void* memcpy_raw(void* dest, const void* src, uint32_t size)
 {
